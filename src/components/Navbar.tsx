@@ -7,10 +7,6 @@ export default function Navbar() {
         Home
       </Link>
 
-      <Link to="/portfolio" className="px-4 py-2">
-        Portfolio
-      </Link>
-
       <Link to="/blog" className="px-4 py-2">
         Blog
       </Link>
