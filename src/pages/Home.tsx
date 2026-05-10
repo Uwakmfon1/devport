@@ -18,6 +18,7 @@ import {
   SiMongodb,
 } from "react-icons/si";
 import { DiRedis } from "react-icons/di";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -120,16 +121,17 @@ export default function Home() {
         <div>
           <h2 className="text-2xl font-bold mb-4">My Projects</h2>
           <div className="grid grid-cols-3 md:grid-cols-2 gap-4 h-64">
-            <div className="bg-gray-200 p-4 h-full">Grid 1</div>
-            <div className="bg-green-200 p-4 h-full">Grid 2</div>
-            <div className="bg-blue-200 p-4 h-full">Grid 3</div>
-            <div className="bg-yellow-200 p-4 h-full">Grid 4</div>
-            <div className="bg-orange-200 p-4 h-full">Grid 5</div>
-            <div className="bg-red-200 p-4 h-full">Grid 6</div>
+            <div className="bg-gray-200 p-4 h-full">Project 1</div>
+            <div className="bg-green-200 p-4 h-full">Project 2</div>
+            <div className="bg-blue-200 p-4 h-full">Project 3</div>
+            <div className="bg-yellow-200 p-4 h-full">Project 4</div>
+            <div className="bg-orange-200 p-4 h-full">Project 5</div>
+            <div className="bg-red-200 p-4 h-full">Project 6</div>
           </div>
         </div>
-        
       </div>
+        <Footer />
+
     </div>
   );
 }
